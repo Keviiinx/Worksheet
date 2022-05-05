@@ -9,11 +9,11 @@ public class GridViewer
                 		switch(grid[i][j])
                 		{
                     			case Maze.EMPTY:
-                        		System.out.print("  ");
+                        		System.out.print("YY");
                         		break;
                         
                     			case Maze.WALL:
-                        		System.out.print("##");
+                        		System.out.print("QQ");
                         		break;
                         
                     			case Maze.START:
