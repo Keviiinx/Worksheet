@@ -36,8 +36,8 @@ public class Maze
         System.out.print("Your solution: ");
         solution = sc.nextLine();
         
-        int currentRow = 1;
-        int currentCol = 0;
+        int row = 1;
+        int col = 0;
         boolean done = false;
         boolean solved = false;
         int charIndex = 0;
